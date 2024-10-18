@@ -235,7 +235,7 @@ function TcFlow()
 					echo -e "$yellow========================================================================================"
 				;;
 				"7")
-					echo -e "$$yellow===================================重启服务==============================================="
+					echo -e "$yellow===================================重启服务==============================================="
 					systemctl daemon-reload
 					sudo systemctl restart wondershaper || service wondershaper restart
 					echo '服务重启success！！！'
